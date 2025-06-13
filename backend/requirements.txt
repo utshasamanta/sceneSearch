@@ -3,3 +3,5 @@ uvicorn
 pydantic
 sentence-transformers
 opencv-python
+pymongo
+dotenv
