@@ -1,8 +1,5 @@
-import requests
-import os
 from PIL import Image
 from transformers import BlipProcessor, BlipForConditionalGeneration
-import pprint
 import cv2 as cv
 
 
