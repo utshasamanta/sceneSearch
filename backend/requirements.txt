@@ -6,3 +6,5 @@ opencv-python
 pymongo
 dotenv
 boto3
+git+https://github.com/openai/whisper.git
+moviepy
