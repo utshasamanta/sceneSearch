@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-const Home = () => {
+const HomePage = () => {
     return (       
         <div className="max-w-4xl text-center flex flex-col justify-center items-center font-inter">
 
@@ -10,11 +10,11 @@ const Home = () => {
             </div>
 
             <div className="flex flex-col gap-2 sm:flex-row md:gap-5 mt-2">
-            <Link to="/upload" className="btn bg-stone-700 hover:bg-stone-800 text-white transition-all duration-400">Find a memory</Link>
-            <Link to="/search" className="btn btn-ghost border border-stone-700 hover:bg-stone-700 hover:text-white transition-all duration-400">Store a memory</Link>
+            <Link to="/search" className="btn bg-stone-700 hover:bg-stone-800 text-white transition-all duration-400">Find a memory</Link>
+            <Link to="/upload" className="btn btn-ghost border border-stone-700 hover:bg-stone-700 hover:text-white transition-all duration-400">Store a memory</Link>
             </div>
         </div>
     )
 }
 
-export default Home
+export default HomePage
